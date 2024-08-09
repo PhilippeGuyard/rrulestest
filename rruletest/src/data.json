@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "title": "Recurring Event",
+    "rrule": {
+      "freq": "WEEKLY",
+      "dtstart": "2024-08-01T10:00:00Z",
+      "until": "2024-12-31T10:00:00Z"
+    },
+    "instances": [
+      {
+        "originalStart": "2024-08-01T10:00:00Z",
+        "title": "Custom Title for First Instance",
+        "description": "This instance has a custom title and description.",
+        "start": "2024-08-01T11:00:00Z",
+        "duration": "02:00"
+      }
+    ],
+    "duration": "01:00"
+  }
+]
